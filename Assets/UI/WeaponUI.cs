@@ -11,7 +11,13 @@ public class WeaponUI : MonoBehaviour
 
     private void Update()
     {
-        if (playerInventory.currentWeapon != null)
+        if (playerInventory.currentWeapon != null && playerInventory.currentWeapon.weaponType == "Melee")
+        {
+            weaponNameText.text = playerInventory.equippedWeaponKey;
+
+            ammoText.text = "\u221E/\u221E";
+        }
+        else if (playerInventory.currentWeapon != null)
         {
             weaponNameText.text = playerInventory.equippedWeaponKey;
 

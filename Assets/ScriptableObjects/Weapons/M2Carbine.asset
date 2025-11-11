@@ -22,3 +22,8 @@ MonoBehaviour:
   fireRate: 750
   magSize: 30
   extraAmmo: 120
+  fireClip: {fileID: 8300000, guid: 5b593d718c3fa6e448def0b2b4da3d68, type: 3}
+  reloadClip: {fileID: 8300000, guid: 61e9adc43e7353b4c81929590d039c1a, type: 3}
+  equipClip: {fileID: 0}
+  volume: 1
+  muzzleFlash: {fileID: 8625462296189766772, guid: b501000b97f2bae46aab12398113c42f, type: 3}

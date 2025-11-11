@@ -4,6 +4,7 @@ using UnityEngine;
 public class WeaponData : ScriptableObject
 {
     //CHANGE THIS TO GENERIC STUFF
+     [Header("Basic Info")]
     public Sprite icon;
     public GameObject prefab;
     public GameObject casing;
@@ -14,4 +15,12 @@ public class WeaponData : ScriptableObject
     public float fireRate; //Rounds per minute
     public int magSize; //Doesn't count +1 in barrel, will keep track in player inventory
     public int extraAmmo; //total ammo you have on reserve
+    [Header("Audio Clips")]
+    public AudioClip fireClip;
+    public AudioClip reloadClip;
+    public AudioClip equipClip;
+    public float volume = 1f;
+
+    [Header("FX / Visuals")]
+    public GameObject muzzleFlash;
 }

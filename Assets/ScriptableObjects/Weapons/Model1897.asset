@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f61b9584271de6340be360d32f9454cb, type: 3}
+  m_Name: Model1897
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  prefab: {fileID: 4604975226035252022, guid: 1cc7ca8fc69f21d4c8331bfcf9a9fe9f, type: 3}
+  casing: {fileID: 3122950245881299251, guid: d44b733692f64a642984541aea217e94, type: 3}
+  weaponName: Model 1897
+  weaponType: Shotgun
+  ammoPool: 12gauge
+  baseDamage: 60
+  fireRate: 50
+  magSize: 6
+  extraAmmo: 24
+  fireClip: {fileID: 8300000, guid: e0834473f7935634dbf9bc1b80921d3c, type: 3}
+  reloadClip: {fileID: 8300000, guid: 5d89f1b9b372df14fae5a38883f8b20f, type: 3}
+  equipClip: {fileID: 8300000, guid: 22179e80800ced54cbb693731985cf3b, type: 3}
+  volume: 1
+  muzzleFlash: {fileID: 8625462296189766772, guid: b501000b97f2bae46aab12398113c42f, type: 3}
